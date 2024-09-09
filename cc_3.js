@@ -20,7 +20,7 @@ function determinePerformanceRating(averageSales) {
 //Task 3: Create a Function to Identify Top and Bottom Performers
 function findTopAndBottomPerformers(salespeople) {
     let topPerformer = { name: '', totalSales: 0 };
-    let bottomPerformer = { name: '', totalSales: Infinity };
+    let bottomPerformer = { name: '', totalSales: 1000000 };
     
     for (let i = 0; i < salespeople.length; i++) {
     let person = salespeople[i];
@@ -35,4 +35,16 @@ function findTopAndBottomPerformers(salespeople) {
 }
 
 //Task 4: Combine Functions to Generate a Performance Report
+// I have done my best to research this and watch videos and I cannot figure it out so I'm just moving on to step 5.
 
+
+//Task 5: Test Your Functions with Sample Data
+
+const salesData = [
+    { name: 'Alice', sales: [12000, 15000, 13000] },
+    { name: 'Bob', sales: [7000, 6000, 7500] },
+    { name: 'Charlie', sales: [3000, 4000, 3500] },
+    { name: 'Diana', sales: [9000, 8500, 9200] },
+];
+console.log('Top Performer:', performers.topPerformer);
+console.log('Bottom Performer:', performers.bottomPerformer);
