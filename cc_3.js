@@ -20,7 +20,7 @@ function determinePerformanceRating(averageSales) {
 //Task 3: Create a Function to Identify Top and Bottom Performers
 function findTopAndBottomPerformers(salespeople) {
     let topPerformer = { name: '', totalSales: 0 };
-    let bottomPerformer = { name: '', totalSales: 1000000 };
+    let bottomPerformer = { name: '', totalSales: 0 };
     
     for (let i = 0; i < salespeople.length; i++) {
     let person = salespeople[i];
